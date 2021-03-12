@@ -1,0 +1,10 @@
+C:\Users\putot\source\repos\avmDAM\Pr-cticaGTEntornos\Práctica 5.1\Practica GitHub Entornos\Practica GitHub Entornos\bin\Debug\Practica GitHub Entornos.exe.config
+C:\Users\putot\source\repos\avmDAM\Pr-cticaGTEntornos\Práctica 5.1\Practica GitHub Entornos\Practica GitHub Entornos\bin\Debug\Practica GitHub Entornos.exe
+C:\Users\putot\source\repos\avmDAM\Pr-cticaGTEntornos\Práctica 5.1\Practica GitHub Entornos\Practica GitHub Entornos\bin\Debug\Practica GitHub Entornos.pdb
+C:\Users\putot\source\repos\avmDAM\Pr-cticaGTEntornos\Práctica 5.1\Practica GitHub Entornos\Practica GitHub Entornos\obj\Debug\Practica GitHub Entornos.csprojAssemblyReference.cache
+C:\Users\putot\source\repos\avmDAM\Pr-cticaGTEntornos\Práctica 5.1\Practica GitHub Entornos\Practica GitHub Entornos\obj\Debug\Practica_GitHub_Entornos.Form1.resources
+C:\Users\putot\source\repos\avmDAM\Pr-cticaGTEntornos\Práctica 5.1\Practica GitHub Entornos\Practica GitHub Entornos\obj\Debug\Practica_GitHub_Entornos.Properties.Resources.resources
+C:\Users\putot\source\repos\avmDAM\Pr-cticaGTEntornos\Práctica 5.1\Practica GitHub Entornos\Practica GitHub Entornos\obj\Debug\Practica GitHub Entornos.csproj.GenerateResource.cache
+C:\Users\putot\source\repos\avmDAM\Pr-cticaGTEntornos\Práctica 5.1\Practica GitHub Entornos\Practica GitHub Entornos\obj\Debug\Practica GitHub Entornos.csproj.CoreCompileInputs.cache
+C:\Users\putot\source\repos\avmDAM\Pr-cticaGTEntornos\Práctica 5.1\Practica GitHub Entornos\Practica GitHub Entornos\obj\Debug\Practica GitHub Entornos.exe
+C:\Users\putot\source\repos\avmDAM\Pr-cticaGTEntornos\Práctica 5.1\Practica GitHub Entornos\Practica GitHub Entornos\obj\Debug\Practica GitHub Entornos.pdb

@@ -18,39 +18,7 @@ namespace Practica_GitHub_Entornos
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void aluNombre_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void aluNota_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listaAlumnos_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Alumno miAlumno = new Alumno();
-            String miAlumnoStr;
-
-            miAlumno.Nombre = aluNombre.Text;
-            miAlumno.Nota = Convert.ToInt32(aluNota.Text);
-            miAlumnoStr = aluNombre.Text + " " + aluNota.Text + (miAlumno.Aprobado ? " Aprobado" : " Suspenso") + "\n";
-            listaAlumnos.AppendText(miAlumnoStr);
-            misAlumnos.Agregar(miAlumno);
-        }
-
+        
         class Alumno
         {
             private string nombre;
@@ -80,7 +48,6 @@ namespace Practica_GitHub_Entornos
                 }
             }
         }
-
         class Alumnos
         {
             private ArrayList listaAlumnos = new ArrayList();
@@ -123,6 +90,63 @@ namespace Practica_GitHub_Entornos
                 }
             }
         }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aluNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aluNota_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listaAlumnos_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Alumno miAlumno = new Alumno();
+            string miAlumnoStr, miAlumnoNotaText;
+
+            miAlumno.Nombre = aluNombre.Text;
+            miAlumno.Nota = Convert.ToInt32(aluNota.Text);
+            if (miAlumno.Nota < 5)
+            {
+                miAlumnoNotaText = "Suspenso";
+            }
+            else if (miAlumno.Nota >= 5 && miAlumno.Nota < 6)
+            {
+                miAlumnoNotaText = "Aprobado";
+            }
+            else if (miAlumno.Nota >= 6 && miAlumno.Nota < 7)
+            {
+                miAlumnoNotaText = "Bien";
+            }
+            else if (miAlumno.Nota >=7 && miAlumno.Nota < 9)
+            {
+                miAlumnoNotaText = "Notable";
+            }
+            else
+            {
+                miAlumnoNotaText = "Sobresaliente";
+            }
+
+            miAlumnoStr = aluNombre.Text + " " + aluNota.Text + " " +
+            miAlumnoNotaText + Environment.NewLine;
+            listaAlumnos.AppendText(miAlumnoStr);
+            misAlumnos.Agregar(miAlumno);
+        }
+
+        
+
+        
 
 
 
